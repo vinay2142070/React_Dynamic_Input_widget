@@ -1,0 +1,44 @@
+/* TinyWidget.css */
+.tiny-widget {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px 0;
+  max-width: 300px;
+  background-color: #f9f9f9;
+}
+
+.input-icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #555;
+}
+
+.input-field {
+  padding: 5px;
+  border: none;
+  font-size: 14px;
+  flex: 1;
+  background-color: transparent;
+}
+
+.input-field:focus {
+  outline: none;
+  border-bottom: 1px solid #007bff;
+}
+
+.input-type-selector {
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.tiny-widget:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 3px rgba(0, 123, 255, 0.25);
+}
